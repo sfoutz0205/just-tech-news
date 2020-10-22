@@ -47,7 +47,7 @@ router.post('/:id', (req, res) => {
 });
 
 // PUT /api/users/1
-router.pus('/:id', (req, res) => {
+router.put('/:id', (req, res) => {
   User.update(req.body, {
     where: {
       id: req.params.id
